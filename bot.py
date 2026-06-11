@@ -370,7 +370,7 @@ def main():
     scheduler = AsyncIOScheduler()
 
     # Auto signal - har 3 ghante (Mon-Fri 5M/15M scalping time pe)
-    scheduler.add_job(auto_post_signal, "interval", hours=3, args=[app])
+    scheduler.add_job(auto_post_signal, "interval", minutes=1, args=[app])
 
     # TP Hit message - din mein 3 baar
     scheduler.add_job(auto_post_tp_hit, "cron", hour="10,14,18", minute=30, args=[app])
