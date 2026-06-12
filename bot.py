@@ -564,5 +564,5 @@ def main_kb():
         [InlineKeyboardButton("Market Analysis", callback_data="analysis")],
         [InlineKeyboardButton("XM Trading App", callback_data="xm")],
         [InlineKeyboardButton("Free Channel", url=CHANNEL_LINK),
-         InlineKeyboardButton("VIP PRO", url=f"https://t.me/{VIP_USER_CLEAN}")],
+         InlineKeyboardButton("VIP PRO", url="https://t.me/" + VIP_USER_CLEAN)],
         [InlineKeyboardButton("Prop Account", callback_da
