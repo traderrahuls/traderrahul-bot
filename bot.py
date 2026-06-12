@@ -560,9 +560,9 @@ def is_xau_open():
 # =============================================
 def main_kb():
     return InlineKeyboardMarkup([
-        [InlineKeyboardButton("📊 Live XAU Signal", callback_data="signal")],
-        [InlineKeyboardButton("📈 Market Analysis", callback_data="analysis")],
-        [InlineKeyboardButton("🏦 XM Trading App", callback_data="xm")],
-        [InlineKeyboardButton("🆓 Free Channel", url=CHANNEL_LINK),
-         InlineKeyboardButton("👑 VIP PRO", url=f"https://t.me/{VIP_USER_CLEAN}")],
-        [InlineKeyboardButton("💼 Prop Acc
+        [InlineKeyboardButton("Live XAU Signal", callback_data="signal")],
+        [InlineKeyboardButton("Market Analysis", callback_data="analysis")],
+        [InlineKeyboardButton("XM Trading App", callback_data="xm")],
+        [InlineKeyboardButton("Free Channel", url=CHANNEL_LINK),
+         InlineKeyboardButton("VIP PRO", url=f"https://t.me/{VIP_USER_CLEAN}")],
+        [InlineKeyboardButton("Prop Account", callback_da
