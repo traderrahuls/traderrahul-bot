@@ -11,6 +11,7 @@ from datetime import datetime
 BOT_TOKEN = "8244372675:AAEzNzglqjT8saJd3L2B-wJYS7kHmmxqu30"
 TWELVE_API = "f1bccc914cf04871b8cc0d37be85fa9a"
 VIP_USERNAME = "@rahulyadavs1"
+VIP_USER_CLEAN = "rahulyadavs1"
 CHANNEL_LINK = "https://t.me/traderrahul1"
 CHANNEL_ID = "@traderrahul1"
 PROP_LINK = "https://bit.ly/m/traderrahul"
@@ -563,5 +564,5 @@ def main_kb():
         [InlineKeyboardButton("📈 Market Analysis", callback_data="analysis")],
         [InlineKeyboardButton("🏦 XM Trading App", callback_data="xm")],
         [InlineKeyboardButton("🆓 Free Channel", url=CHANNEL_LINK),
-         InlineKeyboardButton("👑 VIP PRO", url=f"https://t.me/{VIP_USERNAME.replace('@','')}")],
-        [InlineKeyboardButton("💼 Prop Account", callback_da
+         InlineKeyboardButton("👑 VIP PRO", url=f"https://t.me/{VIP_USER_CLEAN}")],
+        [InlineKeyboardButton("💼 Prop Acc
